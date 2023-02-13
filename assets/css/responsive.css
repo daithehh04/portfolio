@@ -120,6 +120,9 @@
     html {
         font-size: 54%;
     }
+    nav {
+        height: 70px;
+    }
     .home-img img {
         width: 250px;
         height: 250px;
