@@ -86,12 +86,6 @@ img {
     color: var(--dark-theme);
 }
 
-.dark-mode .btn:hover, :not(.btn-check)+.btn:active {
-    color: var(--dark-theme);
-    background-color: var(--light-theme);
-    opacity: 1;
-}
-
 .dark-mode .btn-git:hover,.dark-mode .btn-live:hover {
     background-color: var(--light-theme);
     color: var(--dark-theme);
