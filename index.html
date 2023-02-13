@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- --------GOOGLE FONTS----------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- --------ICONS----------- -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- --------STYLES----------- -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>Document</title>
+</head>
+
+<body class="dark-mode">
+    <header class="header" id="header">
+        <nav class="content">
+            <div class="nav-logo">
+                <a href="#">DAI THE</a>
+            </div>
+            <div class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active">
+                            <i class='bx bx-home-alt'></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link ">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">
+                            <i class='bx bx-star'></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">
+                            <i class='bx bx-briefcase'></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link ">
+                            <i class='bx bx-message-square-detail'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-icon">
+                <i class='bx bx-moon'></i>
+            </div>
+        </nav>
+    </header>
+    <main class="content">
+        <!-- --------Home---------- -->
+        <section class="home" id="home">
+            <div class="home-info">
+                <div class="info-left">
+                    <div class="info-left__item">
+                        <a href="#"><i class='bx bxl-instagram'></i></a>
+                    </div>
+                    <div class="info-left__item">
+                        <a href="#"><i class='bx bxl-github'></i></a>
+                    </div>
+                    <div class="info-left__item">
+                        <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                    </div>
+                </div>
+                <div class="info-right">
+                    <div class="info-right__name">
+                        <h1>NGUYEN DAI THE</h1>
+                        <img src="./assets/images/hello.png" alt="hello">
+                    </div>
+                    <h3 class="info-right__title">Front-end Developer</h3>
+                    <p class="info-right__desc">Love to explore, learn and implement technologies into work and
+                        life. Aim to create great, useful, and user-centered products.</p>
+                    <button class="btn">
+                        <span>Say Hello</span>
+                        <iconify-icon icon="uil:message" class="icon-mess"></iconify-icon>
+                    </button>
+                </div>
+            </div>
+            <div class="home-img">
+                <img src="./assets/images/avatar.jpg" alt="avatar">
+                <a href="#about" class="home-scroll">
+                    <i class='bx bx-mouse'></i>
+                    <span class="home-scroll__name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- --------About---------- -->
+        <section class="about" id="about">
+            <div class="section-title">About Me</div>
+            <p class="section-sub__title">My introduction</p>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="./assets/images/avatar.jpg" alt="avatar">
+                </div>
+                <div class="about-info">
+                    <div class="about-list">
+                        <div class="about-item">
+                            <div class="about-item__icon">
+                                <i class='bx bx-trophy'></i>
+                            </div>
+                            <div class="about-item__title">Goal</div>
+                            <div class="about-item__desc">Become Software Developer</div>
+                        </div>
+                        <div class="about-item">
+                            <div class="about-item__icon">
+                                <i class='bx bx-briefcase'></i>
+                            </div>
+                            <div class="about-item__title">Project</div>
+                            <div class="about-item__desc">+5 Completed</div>
+                        </div>
+                    </div>
+                    <div class="about-description">
+                        <p>My passion for coding is matched by my love for physical fitness. In my free time, I enjoy
+                            practicing boxing and bodybuilding. I am also a multilingual speaker, fluent in French,
+                            English, and Vietnamese.
+                        </p>
+                    </div>
+                    <button class="btn">
+                        <span>Download CV</span>
+                        <iconify-icon icon="pepicons-pop:cv" class="icon-cv"></iconify-icon>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- --------Skills---------- -->
+        <section class="skills" id="skills">
+            <div class="section-title">Skills</div>
+            <p class="section-sub__title">My technical level</p>
+            <div class="skills-wrapper grid">
+                <div class="section-skills">
+                    <h3 class="skills-title">Frontend developer</h3>
+                    <div class="skills-box">
+                        <div class="skills-list">
+                            <div class="skills-item">
+                                <i class='bx bxl-html5'></i>
+                                <div class="skill-content">
+                                    <h4 class="skill-name">HTML</h4>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                            </div>
+                            <div class="skills-item">
+                                <i class='bx bxl-css3'></i>
+                                <div class="skill-content">
+                                    <h4 class="skill-name">CSS</h4>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                            </div>
+                            <div class="skills-item">
+                                <i class='bx bxl-javascript'></i>
+                                <div class="skill-content">
+                                    <h4 class="skill-name">Javascript</h4>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skills-item">
+                                <i class='bx bxl-bootstrap'></i>
+                                <div class="skill-content">
+                                    <h4 class="skill-name">Bootstrap</h4>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="skills-item">
+                                <i class='bx bxl-react'></i>
+                                <div class="skill-content">
+                                    <h4 class="skill-name">React</h4>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-skills">
+                    <h3 class="skills-title">Others</h3>
+                    <div class="skills-box">
+                        <div class="skills-list">
+                            <div class="skills-item">
+                                <i class='bx bxl-sass'></i>
+                                <div class="skill-content">
+                                    <h4 class="skill-name">SASS</h4>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="skills-item">
+                                <i class='bx bxl-redux'></i>
+                                <div class="skill-content">
+                                    <h4 class="skill-name">Redux</h4>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="skills-item">
+                                <i class='bx bxl-postgresql'></i>
+                                <div class="skill-content">
+                                    <h4 class="skill-name">SQL</h4>
+                                    <span class="skill-level">Basic</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skills-item">
+                                <i class='bx bxl-firebase'></i>
+                                <div class="skill-content">
+                                    <h4 class="skill-name">Firebase</h4>
+                                    <span class="skill-level">Basic</span>
+                                </div>
+                            </div>
+                            <div class="skills-item">
+                                <i class='bx bxl-git'></i>
+                                <div class="skill-content">
+                                    <h4 class="skill-name">Git</h4>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="skills-item">
+                                <img src="./assets/images/laptop.png" alt="responsive">
+                                <div class="skill-content">
+                                    <h4 class="skill-name">Responsive</h4>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- --------Portfolio---------- -->
+        <section class="portfolio" id="portfolio">
+            <div class="section-title">Portfolio</div>
+            <p class="section-sub__title">Most recent work</p>
+            <div class="portfolio-content">
+                <div class="portfolio-filter">
+                    <div class="filter-name active" data-filter="all">All</div>
+                    <div class="filter-name" data-filter=".dev">Web</div>
+                    <div class="filter-name" data-filter=".design">Design</div>
+                </div>
+                <div class="portfolio-project">
+                    <div class="project-card mix dev">
+                        <img src="./assets/images/work1.jpg" class="card-img" alt="">
+                        <h4>Clothes Shop</h4>
+                        <div class="card-btn">
+                            <a class="btn-live" href="">
+                                Live
+                                <i class='bx bx-right-arrow-alt'></i>
+                            </a>
+                            <a class="btn-git" href="">
+                                Github
+                                <i class='bx bxl-github'></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card mix design">
+                        <img src="./assets/images/work2.jpg" class="card-img" alt="">
+                        <h4>Clothes Shop</h4>
+                        <div class="card-btn">
+                            <a class="btn-live" href="">
+                                Live
+                                <i class='bx bx-right-arrow-alt'></i>
+                            </a>
+                            <a class="btn-git" href="">
+                                Github
+                                <i class='bx bxl-github'></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card mix dev">
+                        <img src="./assets/images/work3.jpg" class="card-img" alt="">
+                        <h4>Clothes Shop</h4>
+                        <div class="card-btn">
+                            <a class="btn-live" href="">
+                                Live
+                                <i class='bx bx-right-arrow-alt'></i>
+                            </a>
+                            <a class="btn-git" href="">
+                                Github
+                                <i class='bx bxl-github'></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card mix dev">
+                        <img src="./assets/images/work4.jpg" class="card-img" alt="">
+                        <h4>Clothes Shop</h4>
+                        <div class="card-btn">
+                            <a class="btn-live" href="">
+                                Live
+                                <i class='bx bx-right-arrow-alt'></i>
+                            </a>
+                            <a class="btn-git" href="">
+                                Github
+                                <i class='bx bxl-github'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- --------Contact---------- -->
+        <section class="contact" id="contact">
+            <div class="section-title">Contact Me</div>
+            <p class="section-sub__title">Get in touch</p>
+            <div class="contact-content">
+                <div class="contact-left">
+                    <h3 class="contact-title">Talk to me</h3>
+                    <div class="contact-box">
+                        <div class="contact-box__item">
+                            <i class='bx bx-envelope'></i>
+                            <div class="contact-item__name">Email</div>
+                            <a href="mailto:daithehh04@gmail.com" class="contact-item__data"
+                                target="_blank">daithehh04@gmail.com</a>
+                        </div>
+                        <div class="contact-box__item">
+                            <i class='bx bx-phone'></i>
+                            <div class="contact-item__name">Phone</div>
+                            <a href="tel:0397647002" class="contact-item__data" target="_blank">0397647002</a>
+                        </div>
+                        <div class="contact-box__item">
+                            <i class='bx bxl-messenger'></i>
+                            <div class="contact-item__name">Messenger</div>
+                            <a href="https://www.facebook.com/profile.php?id=100013855621950" class="contact-item__data"
+                                target="_blank">Nguyen Dai The</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <h3 class="contact-title">Write me your project</h3>
+                    <form class="contact-form">
+                        <div class="contact-form__item">
+                            <label class="contact-form__tag">Name</label>
+                            <input type="text" class="contact-form__input" placeholder="Enter your name">
+                        </div>
+                        <div class="contact-form__item">
+                            <label class="contact-form__tag">Mail</label>
+                            <input type="email" class="contact-form__input" placeholder="Enter your email">
+                        </div>
+                        <div class="contact-form__item">
+                            <label class="contact-form__tag">Project</label>
+                            <textarea name="project" cols="30" rows="10" class="contact-form__input"
+                                placeholder="Write your project"></textarea>
+                        </div>
+                        <button class="btn">
+                            <span>Send Message</span>
+                            <iconify-icon icon="uil:message" class="icon-mess"></iconify-icon>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="content">
+            <h1 class="footer-title">Dai The</h1>
+            <ul class="footer-list">
+                <li>
+                    <a href="#about" class="footer-link">About</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="footer-link">Project</a>
+                </li>
+                <li>
+                    <a href="#contact" class="footer-link">Contact</a>
+                </li>
+            </ul>
+            <ul class="footer-social">
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=100013855621950" target="_blank"
+                        class="footer-social__link">
+                        <i class='bx bxl-facebook-square'></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank" class="footer-social__link">
+                        <i class='bx bxl-instagram-alt'></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank" class="footer-social__link">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+                </li>
+            </ul>
+            <span class="footer-copy"> © Dai The. All rights reserved</span>
+        </div>
+    </footer>
+    <a href="#" class="goto-top">
+        <i class='bx bx-up-arrow-alt'></i>
+    </a>
+    <script src="./assets/js/mixitup.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
