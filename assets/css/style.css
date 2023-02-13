@@ -49,7 +49,6 @@ img {
     background-color: var(--dark-theme);
     font-size: 1.6rem;
     opacity: 0.9;
-    transition: all .3s ease-in;
 }
 .btn:hover {
     opacity: 1;
