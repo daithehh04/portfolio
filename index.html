@@ -64,7 +64,7 @@
     </header>
     <main class="content">
         <!-- --------Home---------- -->
-        <section class="home" id="home" data-section>
+        <section class="home" id="home">
             <div class="home-info">
                 <div class="info-left">
                     <div class="info-left__item">
@@ -126,13 +126,13 @@
                         </div>
                     </div>
                     <div class="about-description">
-                        <p>My passion for coding is matched by my love for physical fitness. In my free time, I enjoy
-                            practicing boxing and bodybuilding. I am also a multilingual speaker, fluent in French,
-                            English, and Vietnamese.
+                        <p>I am currently a student at the cryptographic engineering academy. With the enthusiasm of my
+                            youth, I always look forward to discovering new things, especially about technology.
+                            Action goals and perseverance are keywords that I always keep in mind to achieve my dreams.
                         </p>
                     </div>
                     <button class="btn">
-                        <span>Download CV</span>
+                        <a download href="./assets/images/avatar.jpg" class="btn-download">Download CV</a>
                         <iconify-icon icon="pepicons-pop:cv" class="icon-cv"></iconify-icon>
                     </button>
                 </div>
@@ -254,61 +254,77 @@
                 </div>
                 <div class="portfolio-project">
                     <div class="project-card mix dev">
-                        <img src="./assets/images/work1.jpg" class="card-img" alt="">
-                        <h4>Clothes Shop</h4>
+                        <img src="./assets/images/store.jpg" class="card-img" alt="">
+                        <h4>SSStutter Shop</h4>
                         <div class="card-btn">
-                            <a class="btn-live" href="">
+                            <a class="btn-live" href="https://ssstuter-shop.vercel.app/" target="_blank">
                                 Live
                                 <i class='bx bx-right-arrow-alt'></i>
                             </a>
-                            <a class="btn-git" href="">
+                            <a class="btn-git" href="https://github.com/daithehh04/ssstuter-shop" target="_blank">
+                                Github
+                                <i class='bx bxl-github'></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card mix design">
+                        <img src="./assets/images/glowing.jpg" class="card-img" alt="">
+                        <h4>Glowing Shop</h4>
+                        <div class="card-btn">
+                            <a class="btn-live" href="https://daithehh04.github.io/glowing/" target="_blank">
+                                Live
+                                <i class='bx bx-right-arrow-alt'></i>
+                            </a>
+                            <a class="btn-git" href="https://github.com/daithehh04/glowing" target="_blank">
+                                Github
+                                <i class='bx bxl-github'></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card mix dev">
+                        <img src="./assets/images/todo-list.png" class="card-img" alt="">
+                        <h4>Todo list</h4>
+                        <div class="card-btn">
+                            <a class="btn-live" href="https://todo-app-sepia-alpha.vercel.app/" target="_blank">
+                                Live
+                                <i class='bx bx-right-arrow-alt'></i>
+                            </a>
+                            <a class="btn-git" href="https://github.com/daithehh04/Todo_App" target="_blank">
                                 Github
                                 <i class='bx bxl-github'></i>
                             </a>
                         </div>
                     </div>
                     <div class="project-card mix design">
-                        <img src="./assets/images/work2.jpg" class="card-img" alt="">
-                        <h4>Clothes Shop</h4>
+                        <img src="./assets/images/tech4coin.avif" class="card-img" alt="">
+                        <h4>Tech4coin</h4>
                         <div class="card-btn">
-                            <a class="btn-live" href="">
+                            <a class="btn-live" href="https://tech4coin.vercel.app/" target="_blank">
                                 Live
                                 <i class='bx bx-right-arrow-alt'></i>
                             </a>
-                            <a class="btn-git" href="">
+                            <a class="btn-git" href="https://github.com/daithehh04/tech4coin" target="_blank">
                                 Github
                                 <i class='bx bxl-github'></i>
                             </a>
                         </div>
                     </div>
-                    <div class="project-card mix dev">
-                        <img src="./assets/images/work3.jpg" class="card-img" alt="">
-                        <h4>Clothes Shop</h4>
+                    <div class="project-card mix design">
+                        <img src="./assets/images/portfolio.png" class="card-img" alt="">
+                        <h4>Portfolio</h4>
                         <div class="card-btn">
-                            <a class="btn-live" href="">
+                            <a class="btn-live" href="https://portfolio-sage-delta.vercel.app/" target="_blank">
                                 Live
                                 <i class='bx bx-right-arrow-alt'></i>
                             </a>
-                            <a class="btn-git" href="">
+                            <a class="btn-git" href="https://github.com/daithehh04/portfolio" target="_blank">
                                 Github
                                 <i class='bx bxl-github'></i>
                             </a>
                         </div>
                     </div>
-                    <div class="project-card mix dev">
-                        <img src="./assets/images/work4.jpg" class="card-img" alt="">
-                        <h4>Clothes Shop</h4>
-                        <div class="card-btn">
-                            <a class="btn-live" href="">
-                                Live
-                                <i class='bx bx-right-arrow-alt'></i>
-                            </a>
-                            <a class="btn-git" href="">
-                                Github
-                                <i class='bx bxl-github'></i>
-                            </a>
-                        </div>
-                    </div>
+
                 </div>
             </div>
             </div>
@@ -346,16 +362,16 @@
                     <form class="contact-form">
                         <div class="contact-form__item">
                             <label class="contact-form__tag">Name</label>
-                            <input type="text" class="contact-form__input" placeholder="Enter your name">
+                            <input type="text" class="contact-form__input" placeholder="Enter your name" required>
                         </div>
                         <div class="contact-form__item">
                             <label class="contact-form__tag">Mail</label>
-                            <input type="email" class="contact-form__input" placeholder="Enter your email">
+                            <input type="email" class="contact-form__input" placeholder="Enter your email" required>
                         </div>
                         <div class="contact-form__item">
                             <label class="contact-form__tag">Project</label>
                             <textarea name="project" cols="30" rows="10" class="contact-form__input"
-                                placeholder="Write your project"></textarea>
+                                placeholder="Write your project" required></textarea>
                         </div>
                         <button class="btn">
                             <span>Send Message</span>
