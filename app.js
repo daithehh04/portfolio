@@ -56,7 +56,7 @@ function scrollActive() {
 
 window.addEventListener('scroll', scrollActive)
 
-// Go to top
+//--------- Go to top------------
 window.addEventListener('scroll', function () {
     const goTop = $('.goto-top')
     if (window.scrollY > 200) {
@@ -66,7 +66,7 @@ window.addEventListener('scroll', function () {
     }
 })
 
-// Dark mode
+// -----------Dark mode------------
 
 const navIcon = $('.nav-icon')
 const iconBtn = $('.nav-icon i')
@@ -75,3 +75,18 @@ navIcon.onclick = function () {
     document.body.classList.toggle('dark-mode')
     iconBtn.classList.toggle('bx-sun')
 }
+
+
+
+//--------------Scroll reveal effect----------------
+
+const sectionsLs = $$("[data-section]");
+function scrollReveal() {
+    sectionsLs.forEach((section) => {
+        if (section.getBoundingClientRect().top < window.innerHeight / 2) {
+            section.classList.add("active");
+        }
+    })
+}
+window.addEventListener("scroll", scrollReveal)
+scrollReveal();
