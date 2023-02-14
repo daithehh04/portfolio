@@ -81,7 +81,7 @@ img {
     color: var(--light-theme);
 }
 
-.dark-mode .btn {
+.dark-mode .btn{
     background-color: var(--light-theme);
     color: var(--dark-theme);
 }
@@ -139,6 +139,10 @@ img {
 
 .dark-mode .info-right__title::before {
     background: var(--light-theme);
+}
+
+.dark-mode a.btn-download {
+    color: var(--dark-theme);
 }
 /* --------Header---------- */
 .header {
