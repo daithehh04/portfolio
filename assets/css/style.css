@@ -658,8 +658,7 @@ textarea::placeholder {
     opacity: 1;
     visibility: visible;
 }
-
-/* ------------------------------ */
+/* ----------Scroll reveal effect--------------- */
 [data-section] > * {
     transform: translateY(100px);
     opacity: 0;
